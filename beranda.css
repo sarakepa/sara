@@ -1,0 +1,120 @@
+*{
+    margin:0;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: darkblue;
+}
+#menu-bar{
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+#pemilik{
+    color: white;
+    padding: 10px;
+}
+#daftar-menu{
+    display: inline-flex;
+}
+.menu{
+    padding: 10px;
+    list-style: none;
+    width: 140px;
+    text-align: center;
+}
+.menu:hover{
+    background-color: yellow;
+}
+#daftar-artikel{
+    display: none;
+}
+#open-artikel:hover #daftar-artikel{
+    display: block;
+}
+#open-sosmed:hover #daftar-sosmed{
+    display: block;
+}
+#daftar-sosmed{
+    display: none;
+}
+.sub-artikel:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+.sub-artikel{
+    list-style: none;
+    margin-left: -20px;
+    padding-top: 10px;
+}
+.sub-sosmed:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.sub-sosmed{
+    list-style: none;
+    margin-left: -20px;
+    padding-top: 10px;
+}
+.konetent{
+    width: 100%;
+    height: 1000px;
+/*    background-color:white;*/
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#side-kiri{
+    width: 100%;
+    height: 1000px;
+/*    background-color: white;*/
+}
+#side-kanan{
+    width: 50%;
+    height: 1000px;
+   /* background-color: white;*/
+    display: flex;
+}
+#left{
+    width: 50%;
+    height: 1000px;
+ 
+
+}
+#right{
+    width: 50%;
+    height: 1000px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.foto{
+    width: 250px;
+    height: 200px;
+    background-color: black;
+}
+.gbr{
+    width: 100%;
+    height: 100%;
+}
+.warna{
+    width: 50%;
+    height: 100px;
+    background-color: white;
+}
+.gambar{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+.vd{
+    width: 100%;
+    height: 100px;
+}
